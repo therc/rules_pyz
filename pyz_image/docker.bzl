@@ -8,7 +8,7 @@ def pyz_rules_docker_repositories():
     if "io_bazel_rules_docker" not in excludes:
         http_archive(
             name = "io_bazel_rules_docker",
-            url = "https://github.com/bazelbuild/rules_docker/archive/4338ecf45187a848d55a3651b6c1d70fe1ef6cce.tar.gz",
-            sha256="1888bbd1d13637273f6968cfbef82c13c413d701647083a04e2e740cf80246a4",
-            strip_prefix="rules_docker-4338ecf45187a848d55a3651b6c1d70fe1ef6cce"
+            url = "https://github.com/bazelbuild/rules_docker/archive/8dbf18f327d7b5cf21db6fffd87204e0970cefc0.tar.gz",
+            sha256="d505a62c52ffb12d92a89c3717a9d7259f9cffb343665a3e7f4eec275966fefc",
+            strip_prefix="rules_docker-8dbf18f327d7b5cf21db6fffd87204e0970cefc0"
         )

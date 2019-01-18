@@ -1,2 +1,4 @@
 bazel-*
+.ropeproject
 .vscode
+*.swp
